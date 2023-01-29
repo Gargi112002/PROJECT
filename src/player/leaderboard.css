@@ -1,0 +1,64 @@
+
+h3{
+    font-size: 60px;
+    text-align: center;
+    color: #ccad7f94;
+    margin: 0px;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    color: rgb(197, 184, 184);
+    border-collapse: collapse;
+    width:50%;
+    margin-top: 1px;
+  }
+  td, th {
+    border: 8px solid rgba(189, 166, 156, 0.5);
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: rgb(128, 85, 59);
+    
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(128, 118, 109);
+  }
+  .p-input-icon-right{
+    margin-bottom: 10px;
+  
+  }
+  .pagination{
+    border: 8px solid rgba(189, 166, 156, 0.5);
+    text-indent: 30px;
+   display:flex;
+   background-color: rgb(128, 85, 59);
+
+  }
+  .dropdown
+  {
+    display: inline-block;
+    width: 150px;
+    padding: 0%;
+    margin: 0px auto;
+    user-select: none;
+    color: rgb(108, 96, 119);
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    
+  }
+  .btn{
+    position: relative;
+    padding: 10px;
+    box-shadow: 3px 3px 10px 6px black;
+    background-color:rgba(229, 208, 188, 0.767) ;
+    font-weight: bold;
+    color: rgb(24, 10, 4);
+    cursor: pointer;
+    justify-content: space-between;
+  }
